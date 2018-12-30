@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 from urllib.request import urlopen
 import sqlite3
 
-page = urlopen('file:///C:/Users/MUSER/Desktop/abcde.html');
+page = urlopen('index.html');
 soup = BeautifulSoup(page.read(),'html.parser')
 soup.prettify()
 
